@@ -1,10 +1,10 @@
 import sys
 
 while True:
-    a = sys.stdin.readline()
-    while a.isupper() == True or a.islower() == True:
-        print(len(a)-1)
+    a = sys.stdin.readline().strip()
+    while a.isupper() or a.islower():
+        print(len(a))
         break
-    break
+
 
     
